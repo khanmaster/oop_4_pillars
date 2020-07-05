@@ -1,0 +1,3 @@
+from request_module_api import web_status_checker
+
+print(web_status_checker.check_response_code_with_requests(web_status_checker))
