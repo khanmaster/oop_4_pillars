@@ -12,7 +12,7 @@ print(type(response_bcc.headers))
 ```
 
 ### checking HTTP/HTTPS response codes
-### 2ne Iteration
+### 2nd Iteration
 
 - create a function called check_response_code() including all the above
 - returns the message with status code
