@@ -11,7 +11,7 @@ print(response_bcc.headers)
 print(type(response_bcc.headers))
 ```
 
-### checking HTTP/HTTPS response codes
+### Checking HTTP/HTTPS response codes
 ### 2nd Iteration
 
 - create a function called check_response_code() including all the above
@@ -27,8 +27,8 @@ def check_response_code():
 
   #response_bcc = str(requests.get("https://www.bbc.co.uk/"))
 ```
-# 3rt Iteration? OOP with 4 pillars.
-## Creating a class web_status_checker
+### 3rd Iteration? OOP with 4 pillars.
+- Creating a class web_status_checker
 
 ```python
 import requests
@@ -55,4 +55,4 @@ check_status_code = web_status_checker()
 print(check_status_code.response_bcc)
 print(check_status_code.check_response_code_with_requests())
 ```
-## This file is imported in run.py to maximise the amazing benefits of OOP
+### This file is imported in run.py to maximise the amazing benefits of OOP
