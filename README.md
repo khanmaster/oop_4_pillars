@@ -50,4 +50,4 @@ check_status_code = web_status_checker()
 print(check_status_code.response_bcc)
 print(check_status_code.check_response_code_with_requests())
 ```
-## this file is imported in run.py to maximise the amazing benefits of OOP
+## This file is imported in run.py to maximise the amazing benefits of OOP
