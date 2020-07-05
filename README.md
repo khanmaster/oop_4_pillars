@@ -12,7 +12,10 @@ print(type(response_bcc.headers))
 ```
 
 ### checking HTTP/HTTPS response codes
+### 2ne Iteration
 
+- create a function called check_response_code() including all the above
+- returns the message with status code
 ``` python
 def check_response_code():
  if response_bcc.status_code == "200":
@@ -22,9 +25,11 @@ def check_response_code():
  else:
        print("OOPs something went wrong")
 
-class web_status_checker:
   #response_bcc = str(requests.get("https://www.bbc.co.uk/"))
 ```
+# 3rt Iteration? OOP with 4 pillars.
+## Creating a class web_status_checker
+
 ```python
 import requests
 
